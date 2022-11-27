@@ -1,14 +1,17 @@
 import discord
 from discord.ui import InputText, Modal
-import modules.Application.functions as ff
+from modules.Application.functions import *
 
 class ApplicationButton(discord.ui.View):
     def __init__(self):
         super().__init__(timeout = None)
     @discord.ui.button(label = "Click to Apply", style = discord.ButtonStyle.green, custom_id = "Applying")
     async def apply_button_press(self, button: discord.ui.Button, interaction: discord.Interaction):
-        
-
+        if user_exist(str(interaction.user)):
+            await interaction.response.send_message("You have already applied!")
+        else:
+            modal = ApplicationModal()
+            await interaction.response.send_modal(modal)
 
 
 

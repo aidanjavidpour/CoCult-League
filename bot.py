@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import os
+from dotenv import load_dotenv
 
 def main():
     intents = discord.Intents.all()
@@ -15,8 +16,9 @@ def main():
         if os.path.exists(os.path.join("modules", folder, "cog.py")):
             client.load_extension(f"modules.{folder}.cog")
 
-    with open('token.txt', 'r') as token:
-        client.run(token.read())
+    
+    load_dotenv()
+    client.run(os.getenv("token"))
 
 if __name__ == '__main__':
     main()

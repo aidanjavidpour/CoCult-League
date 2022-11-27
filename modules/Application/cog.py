@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-import modules.Application.application as app
+from modules.Application.application import *
 
 class Application(commands.Cog, name = "Application Cog"):
     def __init__(self, client: commands.Bot):
@@ -9,13 +9,13 @@ class Application(commands.Cog, name = "Application Cog"):
 
     @commands.command()
     async def he(self, ctx):
-        view = app.ApplicationButton()
+        view = ApplicationButton()
         await ctx.send("Click this button to start the application process.", view = view)
 
     @commands.Cog.listener()
     async def on_ready(self):
         if not self.persistent_views_added:
-            self.client.add_view(app.ApplicationButton())
+            self.client.add_view(ApplicationButton())
             self.persistent_views_added = True
 
 def setup(client: commands.Bot):
