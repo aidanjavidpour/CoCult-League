@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "groovy-reducer-326015",
+  "private_key_id": "a2d59dc12c29666e9b8e840a45936ff6db9e6738",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDqBI68vOzHviVE\nrlDkmJJSiNF85BYcUM48FIUySuBiU7SIDjW9OjMtXzbtX/kVt+u9feRAknIhFh3g\n+HwO5sV3k5ylzXNlXW38AiiRKrDfxLeTuAnhfXoTDmTfPWWq/lICXeOMnNISV7xx\noIV7X4Z/xOJTaLNaqbB4AqQr9bqpuWz7HJA5pa5WXCHxvt+9zpux8R+85ODPSgqL\nWRO7GPJbMHmPrMUwG9WuGQ4aZCOOUF6WqP5CZfGSb/zGK89pZHOJYRd8fjKml9rZ\nOF3HZpJfLXkBqFY7VrvKQWr3syF6B38Uck7rA24DKes9kRVnpyxa3QaA4camYr4E\njS+rFFtNAgMBAAECggEABcLt9rSaCcLjLQEzqaUd+R04NyBwcOsGYNFKhDX2t0UD\nTVQ4O3vq1aOh+Q8jVUcNbUFjtLlGSQ0/2BGWEFHbK7n9IdHglO7LbehpskVATIoN\n0Pu3do89yalRj3N2BNM1FqzUFNqpi10QnSWME8EC0TN6NP5/Z+yElTfPbeujWFlV\nyL+jlK9rFSGWHdeKyM4g9gGgo0A3Y/bEPUbCqvmnYK4P+RU6QqPdCn9rexouTufH\nXBDkryFyWRw4j6WjGftbsADufhkQ1jz+fTmkw0dMa6L5AyuCPl6gtoIZBLTLTgR4\nDM5jzBPK9GT+icd+G/dlQ5+zR/OWeaX2M3SRhC010QKBgQD66nDErOI4WbroR26g\ncfAKqz5xjJMw6XiWS4r798+6QikJZkovnM4RKZqXZwXwH3xmHLHbWn4Vffj8f9ea\n3hfT687w1Vgi5CS8kJRMCzY+vtM+8of9acXAvp4SNIM+gKK3VhWwPfx+BHC8JJZX\nGZOoVndAs0iOYAGc/Aghc9Ni2QKBgQDuwnaXYNCCCYisOuh2dJRt8MnmxVNAVInx\n5vRrGhoevQPYD88N3JXuB43vwXaR0py25QWI69n67jduFtuVTwOxFxYoZL1a/wF7\nENmy3jY+sYE73G5Dayu93CYoo81G4aFgzt9C0PMZiNicDfKXCvY0w0XRSC9nhL5J\ngUwuEWCLlQKBgQCen40w2LaetyMw6s+mAMGmjQGJ2TvIJSDFqvYvOkeJUYAN4Cuw\nE+o18V44rrmTRuRmzWcm6/tfbOb2AX/0+MiJgb6ug8EXNbF/v8rwk/n0CsETP1H3\nQ2Hv6tGVYrtBzSKQ0owdgeJYbEg0uNCOOa4eMqNrNKv+zfTXIIGnXEjbaQKBgDyU\n4Sx151IngyNYayWrXQIsZ76DcSVQjhPwKzKF0/zarwACuuHkh7J2/j/IkgJcM2GA\n6Q+d8JhoG252pE7VVrV3iyrCrP1K2SBV3TcyhQcRWR5MRzoaFmY9Vv1W2r5Sf/Ul\naKb2h8iB3ZxzOYuzv1cR+UQqEcUtfG8APMkvpZSlAoGAMtS3LGPUDotZ1WDuPV2w\nemCFg49fFPPzMrYvOlMiw+lfkTPTx2DmxkzAy3ytCviKOYvKTLm1vaHAsHKUoVH5\ndS7f0ZBTeah6nKuEZhRmI8Cs4LEk+y38L/Rg/l5wwTM0jwnvYTCqD3rw1EAUO0y6\nEmYO/vacjgEISByb2c1Lxhk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-o81mu@groovy-reducer-326015.iam.gserviceaccount.com",
+  "client_id": "109755223475968536161",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-o81mu%40groovy-reducer-326015.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

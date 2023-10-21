@@ -5,7 +5,7 @@ from modules.Application.application import *
 class Application(commands.Cog, name = "Application Cog"):
     def __init__(self, client: commands.Bot):
         self.client = client
-        self.persistent_views_added = False       
+        self.persistent_views_added = False
 
     @commands.command()
     async def he(self, ctx):
