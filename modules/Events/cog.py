@@ -17,6 +17,7 @@ class Application(commands.Cog, name = "Events Cog"):
     async def on_member_join(self, member):
         welcome_channel = self.client.get_channel(1045949597824061460)
         await welcome_channel.send(f"Welcome {member.mention} to ARL!")
+        pass
 
 
 def setup(client: commands.Bot):
