@@ -16,7 +16,6 @@ def main():
         if os.path.exists(os.path.join("modules", folder, "cog.py")):
             client.load_extension(f"modules.{folder}.cog")
 
-    
     load_dotenv()
     client.run(os.getenv("token"))
 

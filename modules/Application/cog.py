@@ -7,6 +7,7 @@ class Application(commands.Cog, name = "Application Cog"):
         self.client = client
         self.persistent_views_added = False
 
+    @commands.has_role("Leadership")
     @commands.command()
     async def he(self, ctx):
         view = ApplicationButton()
